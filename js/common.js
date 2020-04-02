@@ -91,4 +91,14 @@ $(function() {
 		focusOnSelect: true,
 		vertical: true
 	});
+
+
+	$('#js-open-catalog').on('click', function(e){
+		e.preventDefault();
+		$('#fltr_btn').addClass('open')
+	})
+	$('#js-close-catalog').on('click', function(e){
+		e.preventDefault();
+		$('#fltr_btn').removeClass('open')
+	})
 });

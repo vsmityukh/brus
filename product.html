@@ -141,7 +141,7 @@
             <div class="text_box--price">
               <div class="price">114,400 <span>₽/м²</span></div>
               <div>
-                <a href="#" class="sm_link">Получить смету</a>
+                <a href="#modal" class="sm_link" data-fancybox="">Получить смету</a>
                 <a href="" class="main_btn blur">Купить проект</a>
               </div>
             </div>
@@ -535,6 +535,23 @@
     </div>
 
   </footer><!-- /. footer -->
+
+
+  <div id="modal" class="modal">
+    <div class="modal_inner">
+      <div class="titl">Обратная связь</div>
+      <div class="subtitl">Пожалуйста, введите некоторые данные о себе и наш менеджер свяжеться</div>
+      <form action="#">
+
+        <input type="text" name="name" placeholder="Имя" class="inp_name">
+        <input type="text" name="phone" placeholder="Телефон" class="inp_phone">
+        <input type="text" name="mail" placeholder="E-mail" class="inp_mail">
+        <textarea name="comment" class="inp_text"></textarea>
+
+        <button class="main_btn blur">Отправить</button>
+      </form>
+    </div>
+  </div>
 
   <script src="js/scripts.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />

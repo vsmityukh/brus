@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!-- <base href="/"> -->
 
-  <title>Главная</title>
+  <title>Товар</title>
   <meta name="description" content="">
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
 
 <body>
 
-  <header class="top">
+  <header>
     <div class="container">
       <div class="row">
         
@@ -62,96 +62,207 @@
     
   </header>
 
-
-  <section class="mainscreen">
-    <div class="mainscreen_img">
-      <img src="img/template/mainscreen-img.jpg" alt="">
-    </div>
-
+  <!-- crumbs -->
+  <section class="crumbs">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6">
-          <div class="main_box">
-            <div class="title">Дома из целого бруса</div>
-            <small>Комфорт, надежность и практичность.</small>
+        <div class="col-12">
+          <div class="crumbs_box">
+            <a href="#">Nice Wood House</a>
+            <span>Каталог</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /. crumbs -->
 
-            <p>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям.</p>
 
-            <div class="main_box_price">
-              <span>от</span> 1.000.000 <div class="curr">₽</div>
+  <!-- product -->
+  <section class="product_wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-7 col-xl-6">
+          <div class="photo_box">
+            
+            <div class="main_photo--wrapper blur">
+              <div class="main_photo">  
+                  <img src="img/prod_photo.png" alt="">
+                  <img src="img/prod_photo.png" alt="">
+                  <img src="img/prod_photo.png" alt="">
+                  <img src="img/prod_photo.png" alt="">
+                </div>
+            </div>
+            
+            <!-- thumb photo -->
+            <div class="thumb_photos">
+              <div class="thumb_item blur">
+                <img src="img/thumb-img1.png" alt="">
+              </div>
+
+              <div class="thumb_item blur">
+                <img src="img/thumb-img1.png" alt="">
+              </div>
+
+              <div class="thumb_item blur">
+                <img src="img/thumb-img1.png" alt="">
+              </div>
+            </div><!-- /. thumb photo -->
+
+
+          </div>
+        </div>
+
+        <!-- prod main text -->
+        <div class="col-12 col-lg-5 col-xl-6">
+          <div class="text_box">
+            <h1>Дом из бревна ОБ-86 размером 7 на 9 м</h1>
+
+            <p>Аппарат по очистке и продаже питьевой воды "Живая вода.Улица" состоит из двух блоков: модуль розлива питьевой воды и система очистки питьевой воды в антивандальном виде.</p>
+            
+            <div class="small_body_icons">
+              <div>
+                <img src="img/template/sq_icon.svg" alt="">
+                <span>203 м<sup>2</sup></span>
+              </div>
+              <div>
+                <img src="img/template/h_icon.svg" alt="">
+                <span>5</span>
+              </div>
+              <div>
+                <img src="img/template/room_icon.svg" alt="">
+                <span>7</span>
+              </div>
+              <div>
+                <img src="img/template/sleep_icon.svg" alt="">
+                <span>2</span>
+              </div>
+            </div>
+            
+            <div class="text_box--price">
+              <div class="price">114,400 <span>₽/м²</span></div>
+              <div>
+                <a href="#" class="sm_link">Получить смету</a>
+                <a href="" class="main_btn blur">Купить проект</a>
+              </div>
             </div>
 
-            <div class="main_box_links">
-              <a href="#" class="main_btn blur">Перейти к каталогу</a>
-              <a href="#" class="main_btn_re">Получить консультацию</a>
-            </div>      
+            <div class="text_box_links">
+              <a href="#" class="sm_link">Задать вопрос</a>
+              <a href="#" class="sm_link">Рассчитать кредит</a>
+
+            </div>
           </div>
-        </div>
+        </div><!-- /. prod main text -->
+
       </div>
-    </div>
 
 
-  </section>
-
-
-  <section class="white_bg benefits_box">
-    <div class="container">
-      <div class="row">
+      <div class="row tabs_row">
         <div class="col-12">
-          <div class="main_title">Что мы предлагаем?</div>
+          <ul class="tab_links" data-target="#tabsContent1">
+            <li><a href="#desc1" class="active">Характеристики</a></li>
+            <li><a href="#desc2" class="">FAQ</a></li>
+            <li><a href="#desc3" class="">Об оплате</a></li>
+          </ul>
+
+          <div class="tabs_content blur" id="tabsContent1">
+            <div class="tabs_item active" id="desc1">
+              <div class="text_box">
+                <h3>Характеристики</h3>
+                
+                <div class="char_box">
+                  <div class="char_box_item">
+                    <span>Характеристика</span>
+                    <span><strong>Значение</strong></span>
+                  </div>
+                  <div class="char_box_item">
+                    <span>Характеристика</span>
+                    <span><strong>Значение</strong></span>
+                  </div>
+
+                  <div class="char_box_item">
+                    <span>Характеристика</span>
+                    <span><strong>Значение</strong></span>
+                  </div>
+                  <div class="char_box_item">
+                    <span>Характеристика</span>
+                    <span><strong>Значение</strong></span>
+                  </div>
+
+                  <div class="char_box_item">
+                    <span>Характеристика</span>
+                    <span><strong>Значение</strong></span>
+                  </div>
+                  <div class="char_box_item">
+                    <span>Характеристика</span>
+                    <span><strong>Значение</strong></span>
+                  </div>
+                  <div class="char_box_item">
+                    <span>Характеристика</span>
+                    <span><strong>Значение</strong></span>
+                  </div>
+                  <div class="char_box_item">
+                    <span>Характеристика</span>
+                    <span><strong>Значение</strong></span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="tabs_item" id="desc2">
+              <div class="text_box">
+                <h3>FAQ</h3>
+
+                <div class="faq_box">
+
+                  <div class="faq_item">
+                    <div class="faq_item_q">Насколько большим ресурсом обладает данное оборудование?</div>
+                    <div class="faq_item_a">Таким образом дальнейшее развитие различных форм деятельности требуют от нас анализа систем массового участия. С другой стороны сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения и уточнения форм развития. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. </div>
+                  </div>
+
+                  <div class="faq_item">
+                    <div class="faq_item_q">Что идет в комплекте?</div>
+                    <div class="faq_item_a">Таким образом дальнейшее развитие различных форм деятельности требуют от нас анализа систем массового участия. С другой стороны сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения и уточнения форм развития. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. </div>
+                  </div>
+
+                  <div class="faq_item">
+                    <div class="faq_item_q">Насколько большим ресурсом обладает данное оборудование?</div>
+                    <div class="faq_item_a">Таким образом дальнейшее развитие различных форм деятельности требуют от нас анализа систем массового участия. С другой стороны сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения и уточнения форм развития. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. </div>
+                  </div>
+
+
+                  <div class="faq_item">
+                    <div class="faq_item_q">Что идет в комплекте?</div>
+                    <div class="faq_item_a">Таким образом дальнейшее развитие различных форм деятельности требуют от нас анализа систем массового участия. С другой стороны сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения и уточнения форм развития. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="tabs_item" id="desc3">
+              <div class="text_box">
+                  <h3>Об оплате</h3>
+                  <p>Таким образом дальнейшее развитие различных форм деятельности требуют от нас анализа систем массового участия. С другой стороны сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения и уточнения форм развития. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. </p>
+
+                  <p>Задача организации, в особенности же консультация с широким активом влечет за собой процесс внедрения и модернизации новых предложений. С другой стороны постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание существенных финансовых и административных условий.</p>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
 
-      <div class="row benefits_row ">
-        <div class="col-6 col-lg-3 benefits">
-          <div>
-            <img src="img/template/ben1.svg" alt="">
-            <p>Надежность</p>
-            <span>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий представляет</span>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 benefits">
-          <div>
-            <img src="img/template/ben2.svg" alt="">
-            <p>Оперативность</p>
-            <span>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий представляет</span>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 benefits">
-          <div>
-            <img src="img/template/ben3.svg" alt="">
-            <p>Адекватные цены</p>
-            <span>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий представляет</span>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 benefits">
-          <div>
-            <img src="img/template/ben4.svg" alt="">
-            <p>Отзывчивый сервис</p>
-            <span>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий представляет</span>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <div class="center_link">
-            <a href="#" class="main_btn blur">Заказать сейчас</a>
-          </div>
-        </div>
-      </div>
-
-      </div>
     </div>
   </section>
+  <!-- /. product -->
 
 
   <section class="pop_slider_wrap">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="main_title">Наиболее популярные дома</div>
+          <div class="main_title">Возможно, вам будет интересно</div>
         </div>
       </div>
 
@@ -348,110 +459,6 @@
     </div>
   </section>
 
-
-  <section class="white_bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="about_box">
-
-            <div class="about_box_desc">
-              <div class="titl">Немного о компании <i>Брус-дом.рф</i></div>
-              <div class="subtitl">Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности требуют определения и уточнения форм развития. Задача организации, в особенности же рамки и место обучения кадров требуют от нас анализа направлений прогрессивного развития. </div>
-
-              <a href="#" class="main_btn blur">Читать подробнее</a>
-            </div>
-            <div class="about_box_img">
-              <img src="img/template/main_about_img.jpg" alt="" class="img-responsive">
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- form_box -->
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="form_box">
-
-            <div class="form_box_img">
-              <img src="img/template/form_bg.jpg" alt="" class="img-responsive">
-            </div>
-
-            <div class="form_box_form">
-              <div class="titl">Нужна консультация?</div>
-              <div class="subtitl">Всего лишь заполните краткую форму и получите консультацию у нашего менеджера в ближайшее время!</div>
-              
-              <!-- form -->
-              <form action="#" class="form consult_form">
-
-                <div class="form_row">
-                  <div class="form_item">
-                    <input type="text" name="name" placeholder="Имя" class="inp_name">
-                  </div>
-                  <div class="form_item">
-                    <input type="text" name="phone" placeholder="Телефон" class="inp_phone error">
-                  </div>
-                </div>
-
-                <div class="form_row">
-                  <div class="form_item">
-                    <input type="text" name="name" placeholder="E-mail" class="inp_mail">
-                  </div>
-                  <div class="form_item">
-                    <button class="main_btn blur">Отправить</button>
-                  </div>
-                </div>
-
-                <span class="policy">Нажимая на кнопку «Получить презентацию» вы соглашаетесь с <a href="#">Политикой конфиденциальности</a></span>
-              </form><!-- /. form -->
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /. form_box -->
-
-
-  <!-- contact box -->
-  <section class="white_bg contact_box">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-
-          <div class="cont_box">
-            <div class="cont_box_map blur">
-              <img src="img/template/about-img.png" alt="">
-            </div>
-            <div class="cont_box_desc">
-
-              <div class="titl">Контакты</div>
-              <address>г. Пермь, ул. Освобождения О, 2в</address>
-
-              <div class="cont_box_links">
-                <a href="tel:+38(066)3641919" class="tel">+38 (066) 364 1919</a>
-                <a href="mailto:sales@brus-dom.com" class="mail">sales@brus-dom.com</a>
-
-                <a href="#" class="feedback main_btn blur">Связаться с нами</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-  </section><!-- ./ contact box -->
-
-   
   <!-- footer -->
   <footer>
 
@@ -529,13 +536,9 @@
 
   </footer><!-- /. footer -->
 
-
-
   <script src="js/scripts.min.js"></script>
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
 </body>
 
 </html>
